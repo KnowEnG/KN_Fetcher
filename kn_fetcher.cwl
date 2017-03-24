@@ -6,7 +6,7 @@ doc: "Retrieve appropriate subnetwork from KnowEnG Knowledge Network from AWS S3
 
 requirements:
   - class: DockerRequirement
-    dockerPull: "quay.io/cblatti3/kn_fetcher:0.1"
+    dockerPull: "quay.io/cblatti3/kn_fetcher:latest"
   - class: InlineJavascriptRequirement
 
 hints:
