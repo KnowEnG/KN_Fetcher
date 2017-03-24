@@ -4,6 +4,11 @@ id: "kn_fetcher"
 label: "Knowledge Network Fetcher"
 doc: "Retrieve appropriate subnetwork from KnowEnG Knowledge Network from AWS S3 storage"
 
+dct:creator:
+  "@id": "http://orcid.org/0000-0002-4683-6271"
+  foaf:name: Charles Blatti
+  foaf:mbox: "mailto:blatti@illinois.edu"
+
 requirements:
   - class: DockerRequirement
     dockerPull: "quay.io/cblatti3/kn_fetcher:0.1"
