@@ -60,11 +60,3 @@ $ dockstore tool convert cwl2json --cwl Dockstore.cwl > Dockstore.json
 # run it locally with the Dockstore CLI
 $ dockstore tool launch --entry quay.io/cblatti3/kn_fetcher:latest --yaml kn_fetcher.job.yml
 ```
-
-
-
-
-
-docker build -t cblatti3/aws:0.1 ./
-docker login
-docker push cblatti3/aws:0.1
