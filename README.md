@@ -5,7 +5,7 @@
 # KN_Fetcher
 Download a subnetwork from the KnowEnG Knowledge Network
 
-A repo for the `Dockerfile` to create a Docker image for the kn_fetcher command. Also contains the
+A repo for the `Dockerfile` to create a Docker image for the kn_fetcher.sh command. Also contains the
 `Dockstore.cwl` which is used by the [Dockstore](https://www.dockstore.org) to register
 this container and describe how to call kn_fetcher for the community.
 
@@ -21,22 +21,23 @@ manually you would execute:
 ## Running Manually
 
 ```
-$ $ docker run -it -w='/home/ubuntu' -v `pwd`:/home/ubuntu quay.io/cblatti3/kn_fetcher:latest 
+# enter the docker container
+$ docker run -it -w='/home/ubuntu' -v `pwd`:/home/ubuntu quay.io/cblatti3/kn_fetcher:latest
 
-# within the docker container
+# run command within the docker container
 $ /home/kn_fetcher.sh KnowNets/KN-6rep-1611/userKN-6rep-1611 Property 9606 pfam_domains
 ```
-You'll then see a file, `9606.pfam_domains.edge`, in the current directory, that's the report file. The `-v` to mount the result out of the container.
+You'll then see a file, `9606.pfam_domains.edge`, in the current directory, that's the report file. The `-v` is used to mount this result out of the container.
 
 ## Running Through the Dockstore CLI
 
-This tool can be found at the [Dockstore](https://dockstore.org), login with your GitHub account and follow the 
-directions to setup the CLI.  It lets you run a Docker container with a CWL descriptor locally, using Docker and the CWL command line utility.  
+This tool can be found at the [Dockstore](https://dockstore.org/containers/quay.io/cblatti3/kn_fetcher), login with your GitHub account and follow the
+directions to setup the CLI.  It lets you run a Docker container with a CWL descriptor locally, using Docker and the CWL command line utility.
 
 
 ### Make a Parameters JSON
 
-A sample parameterization of the kn_fetcher tool is present in this repo called `kn_fetcher.job.yml`:
+A sample parameterization of the kn_fetcher tool is present in this repo in `kn_fetcher.job.yml`:
 
 ```
 network_type: "Gene"
@@ -51,11 +52,13 @@ Run it using the `dockstore` CLI:
 ```
 Usage:
 # fetch CWL
-$> dockstore cwl --entry quay.io/cblatti3/kn_fetcher:0.1 > Dockstore.cwl
-# make a runtime JSON template and edit it (or use the content of sample_configs.json above)
-$> dockstore convert cwl2json --cwl Dockstore.cwl > Dockstore.json
+$ dockstore tool cwl --entry quay.io/cblatti3/kn_fetcher:latest > Dockstore.cwl
+
+# make a runtime JSON template and edit it (or use the content of kn_fetcher.job.yml above)
+$ dockstore tool convert cwl2json --cwl Dockstore.cwl > Dockstore.json
+
 # run it locally with the Dockstore CLI
-$> dockstore launch --entry quay.io/cblatti3/kn_fetcher:0.1 --json Dockstore.json
+$ dockstore tool launch --entry quay.io/cblatti3/kn_fetcher:latest --yaml kn_fetcher.job.yml
 ```
 
 
