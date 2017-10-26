@@ -25,7 +25,7 @@ manually you would execute:
 $ docker run -it -w='/home/ubuntu' -v `pwd`:/home/ubuntu quay.io/cblatti3/kn_fetcher:latest
 
 # run command within the docker container
-$ /home/kn_fetcher.sh KnowNets/KN-6rep-1611/userKN-6rep-1611 Property 9606 pfam_domains
+$ /home/kn_fetcher.sh KnowNets/KN-20rep-1706/userKN-20rep-1706 Property 9606 pfam_domains
 ```
 You'll then see a file, `9606.pfam_domains.edge`, in the current directory, that's the report file. The `-v` is used to mount this result out of the container.
 
