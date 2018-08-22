@@ -1,26 +1,30 @@
 # KnowEnG Knowledge Network (version 17.06)
 
+## Resources
+  - Network Edge Types [[table](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/edge_type.txt)]
+  - Species Description [[table](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/species_desc.txt)]
+
 ## Species
-  - Aedes aegypti (7159) [[networks](#aedes-aegypti)]
-  - Apis mellifera (7460) [[networks](#apis-mellifera)]
-  - Arabidopsis thaliana (3702) [[networks](#arabidopsis-thaliana)]
-  - Bos taurus (9913) [[networks](#bos-taurus)]
-  - Caenorhabditis elegans (6239) [[networks](#caenorhabditis-elegans)]
-  - Canis familiaris (9615) [[networks](#canis-familiaris)]
-  - Danio rerio (7955) [[networks](#danio-rerio)]
-  - Daphnia pulex (6669) [[networks](#daphnia-pulex)]
-  - Drosophila melanogaster (7227) [[networks](#drosophila-melanogaster)]
-  - Gallus gallus (9031) [[networks](#gallus-gallus)]
-  - Gasterosteus aculeatus (69293) [[networks](#gasterosteus-aculeatus)]
-  - Homo sapiens (9606) [[networks](#homo-sapiens)]
-  - Macaca mulatta (9544) [[networks](#macaca-mulatta)]
-  - Mus musculus (10090) [[networks](#mus-musculus)]
-  - Pan troglodytes (9598) [[networks](#pan-troglodytes)]
-  - Rattus norvegicus (10116) [[networks](#rattus-norvegicus)]
-  - Saccharomyces cerevisiae (4932) [[networks](#saccharomyces-cerevisiae)]
-  - Sus scrofa (9823) [[networks](#sus-scrofa)]
-  - Taeniopygia guttata (59729) [[networks](#taeniopygia-guttata)]
-  - Xenopus tropicalis (8364) [[networks](#xenopus-tropicalis)]
+  - Aedes aegypti (7159) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/7159/7159.node_map.txt)][[networks](#aedes-aegypti)]
+  - Apis mellifera (7460) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/7460/7460.node_map.txt)][[networks](#apis-mellifera)]
+  - Arabidopsis thaliana (3702) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/3702/3702.node_map.txt)][[networks](#arabidopsis-thaliana)]
+  - Bos taurus (9913) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/9913/9913.node_map.txt)][[networks](#bos-taurus)]
+  - Caenorhabditis elegans (6239) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/6239/6239.node_map.txt)][[networks](#caenorhabditis-elegans)]
+  - Canis familiaris (9615) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/9615/9615.node_map.txt)][[networks](#canis-familiaris)]
+  - Danio rerio (7955) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/7955/7955.node_map.txt)][[networks](#danio-rerio)]
+  - Daphnia pulex (6669) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/6669/6669.node_map.txt)][[networks](#daphnia-pulex)]
+  - Drosophila melanogaster (7227) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/7227/7227.node_map.txt)][[networks](#drosophila-melanogaster)]
+  - Gallus gallus (9031) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/9031/9031.node_map.txt)][[networks](#gallus-gallus)]
+  - Gasterosteus aculeatus (69293) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/69293/69293.node_map.txt)][[networks](#gasterosteus-aculeatus)]
+  - Homo sapiens (9606) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/9606/9606.node_map.txt)][[networks](#homo-sapiens)]
+  - Macaca mulatta (9544) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/9544/9544.node_map.txt)][[networks](#macaca-mulatta)]
+  - Mus musculus (10090) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/10090/10090.node_map.txt)][[networks](#mus-musculus)]
+  - Pan troglodytes (9598) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/9598/9598.node_map.txt)][[networks](#pan-troglodytes)]
+  - Rattus norvegicus (10116) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/10116/10116.node_map.txt)][[networks](#rattus-norvegicus)]
+  - Saccharomyces cerevisiae (4932) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/4932/4932.node_map.txt)][[networks](#saccharomyces-cerevisiae)]
+  - Sus scrofa (9823) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/9823/9823.node_map.txt)][[networks](#sus-scrofa)]
+  - Taeniopygia guttata (59729) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/59729/59729.node_map.txt)][[networks](#taeniopygia-guttata)]
+  - Xenopus tropicalis (8364) [[genes](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Species/8364/8364.node_map.txt)][[networks](#xenopus-tropicalis)]
 
 ## Homo sapiens
 #### Gene
@@ -53,6 +57,7 @@
   - GEO Expression Set (GEO_expression_set) [[edges](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/GEO_expression_set/9606.GEO_expression_set.edge)][[mappings](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/GEO_expression_set/9606.GEO_expression_set.node_map)][[metadata](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/GEO_expression_set/9606.GEO_expression_set.metadata)], 3656910 relationships
   - HMDB Metabolite Signatures (HMDB_metabolite_signatures) [[edges](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/HMDB_metabolite_signatures/9606.HMDB_metabolite_signatures.edge)][[mappings](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/HMDB_metabolite_signatures/9606.HMDB_metabolite_signatures.node_map)][[metadata](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/HMDB_metabolite_signatures/9606.HMDB_metabolite_signatures.metadata)], 172875 relationships
   - KEA Kinase Signatures (KEA_kinase_signatures) [[edges](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/KEA_kinase_signatures/9606.KEA_kinase_signatures.edge)][[mappings](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/KEA_kinase_signatures/9606.KEA_kinase_signatures.node_map)][[metadata](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/KEA_kinase_signatures/9606.KEA_kinase_signatures.metadata)], 10580 relationships
+  - Known Drivers of Cancer (cancer_driver_genes) [[edges](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/cancer_driver_genes/9606.cancer_driver_genes.edge)][[mappings](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/cancer_driver_genes/9606.cancer_driver_genes.node_map)][[metadata](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/cancer_driver_genes/9606.cancer_driver_genes.metadata)], 1143 relationships  
   - MSigDB Cancer Gene Neighborhoods (msigdb_c4_cgn) [[edges](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/msigdb_c4_cgn/9606.msigdb_c4_cgn.edge)][[mappings](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/msigdb_c4_cgn/9606.msigdb_c4_cgn.node_map)][[metadata](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/msigdb_c4_cgn/9606.msigdb_c4_cgn.metadata)], 42159 relationships
   - MSigDB Cancer Modules (msigdb_c4_cm) [[edges](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/msigdb_c4_cm/9606.msigdb_c4_cm.edge)][[mappings](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/msigdb_c4_cm/9606.msigdb_c4_cm.node_map)][[metadata](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/msigdb_c4_cm/9606.msigdb_c4_cm.metadata)], 48447 relationships
   - MSigDB Chemical and Genetic Perturbations (msigdb_c2_cgp) [[edges](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/msigdb_c2_cgp/9606.msigdb_c2_cgp.edge)][[mappings](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/msigdb_c2_cgp/9606.msigdb_c2_cgp.node_map)][[metadata](https://s3.amazonaws.com/KnowNets/KN-20rep-1706/userKN-20rep-1706/Property/9606/msigdb_c2_cgp/9606.msigdb_c2_cgp.metadata)], 369500 relationships
