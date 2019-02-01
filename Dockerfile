@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
     python3-pip
 
 RUN pip3 install awscli
-RUN wget -O /home/credentials http://veda.cs.uiuc.edu/RWR/tmp/kn_s3reader_creds
+RUN wget -O /home/credentials http://knowredis.knoweng.org:8085/s3reader.v2.creds
 COPY kn_fetcher.sh /home/
 RUN chmod 775 /home/kn_fetcher.sh
 
